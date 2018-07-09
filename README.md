@@ -1,2 +1,2 @@
 # Ebook-Sales
-Stripe payment api
+This is a Stripe payment API.

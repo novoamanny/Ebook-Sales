@@ -1,0 +1,25 @@
+{
+  "name": "ebook-sales",
+  "version": "1.0.0",
+  "description": "Stripe payment API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novoamanny/ebook-sales.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novoamanny/ebook-sales/issues"
+  },
+  "homepage": "https://github.com/novoamanny/ebook-sales#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^6.2.1"
+  }
+}
