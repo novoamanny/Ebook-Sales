@@ -24,6 +24,10 @@ app.get('/', function(req, res){
 });
 
 
+app.post('/charge', function(){
+    console.log('charged....')
+});
+
 
 app.listen(port, function(){
     console.log('Now litsening on port: ' + port);

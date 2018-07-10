@@ -5,7 +5,8 @@
             <p class="lead">Learn Web Development</p>
             <form action="/charge" method="POST">
                 <script
-                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    src="https://checkout.stripe.com/checkout.js" 
+                    class="stripe-button"
                     data-key="pk_test_oun6669wL7oNzl2Glr03jbiw"
                     data-amount="2500"
                     data-name="Web Development ebook"
@@ -13,6 +14,10 @@
                     data-image="/img/marketplace.png"
                     data-locale="auto">
                 </script>
+                <script>
+                    document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                </script>
+                <button class="btn btn-outline-dark text-white btn-lg bg-success" type="submit">Purchase Now!</button>
             </form>
         </div>
         <div class="col-md-6">
