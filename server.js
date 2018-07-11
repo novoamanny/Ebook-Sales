@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 
 const app = express();
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 
 
 //  Handlebars Middleware
@@ -45,5 +45,5 @@ app.post('/charge', function(req,res){
 
 
 app.listen(port, function(){
-    console.log('Now litsening on port: ${port}');
+    console.log('Now litsening on port: ' + port);
 });
