@@ -45,5 +45,5 @@ app.post('/charge', function(req,res){
 
 
 app.listen(port, function(){
-    console.log('Now litsening on port: ' + port);
+    console.log('Now litsening on port: ${port}');
 });
