@@ -4,7 +4,7 @@
   "description": "Stripe payment API",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
